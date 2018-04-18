@@ -1,0 +1,9 @@
+.hideNav{
+width:0%;
+transition: all 1s ease;
+}
+
+.ShowNav{
+    width:25%;
+    transition: all 1s ease;
+}

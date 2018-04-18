@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SideBarComponent implements OnInit {
 
+  hamburgerClicked= false;
+
   constructor() { }
 
   ngOnInit() {
+  }
+  
+  slideHeader(){
+   this.hamburgerClicked = true;
   }
 
 }

@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'The World of Angular';
+  toggleHeader = false;
+
+
+  open(event){
+  this.toggleHeader= !this.toggleHeader;
+
+  }
 }
+
+
