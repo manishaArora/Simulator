@@ -143,3 +143,8 @@ body {
 .custom-hamburger{
     background: blue;
 }
+
+.customstyle{
+    font-size: 25px;
+    color:white;
+}

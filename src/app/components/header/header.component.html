@@ -1,27 +1,24 @@
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
-<header class="header-fixed">
+<header class="header-fixed row">
     
-    <span (click)="menuclikced()" class="glyphicon glyphicon-plus" style="background-color: white"></span>
+    <div (click)="menuclikced()" class="col-md-1" style="color: white;font-size: 25px;padding: 0 16px 0 0px;text-align: center;cursor:pointer">&#9776; </div>
+    
 
-	<div class="header-limiter">
-		<h1><a href="#"><span>Protobuf Simulator</span></a></h1>
-
-		<nav>
-           <a href="#"></a> 
-			<a href="#" class="selected"><span class="glyphicon glyphicon-plus"></span></a>
-			<a href="#">Message Sender</a>
-			<a href="#">Add Component Type</a>
-			<a href="#">Upload Jar</a>
-			<a href="#">Component Type</a>
+	<div class="col-md-7" style="text-align: center;">
+		<span style="color:#3e91d8;font-size: 30px">Protobuf Simulator</span>
+	</div>
+    <nav class="col-md-4" style="float: right">
+            <a href="#" class="col-md-4"> </a>
+			<a href="#" routerLink="/messagesender" ><span class="glyphicon glyphicon-comment customicon col-md-2 customstyle" ></span></a>
+            <a href="#" routerLink="/comptype"><a><span class="glyphicon glyphicon-folder-open customicon col-md-2 customstyle"></span></a></a>
+			<a href="#" routerLink="/createmsgsender"><span class="glyphicon glyphicon-envelope customicon col-md-2 customstyle"></span></a>
+			<a href="#" routerLink="/uploadJar"><span class="glyphicon glyphicon-upload customicon col-md-2 customstyle"></span></a>
+    
 			
 		</nav>
-
-	</div>
 
 </header>
 
 <!-- You need this element to prevent the content of the page from jumping up -->
 <div class="header-fixed-placeholder"></div>
-
-<span class="glyphicon glyphicon-plus"></span>

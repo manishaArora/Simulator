@@ -4,13 +4,44 @@
     <!-- [/] jquery -->
 
     <!-- bootstrap -->
-   <div class="side-bar">
-
-       <p><a routerLink="/messagesender">Message Sender</a> <a routerLink="/messagesender"><span class="glyphicon glyphicon-comment"></span></a></p>
-<p><a routerLink="/comptype">List Component Type</a><span class="glyphicon glyphicon-phone"></span></p>
-<p><a routerLink="/createmsgsender">Create Message Sender</a><span class="
-glyphicon glyphicon-envelope"></span></p>
-<p><a routerLink="/uploadJar">Upload Jar</a><span class="glyphicon glyphicon-upload"></span></p>
+   <div class="side-bar customsidebar col-md-12">
+  
+       <div class="row customdiv">
+           <ul>
+               <li routerLink="/messagesender"><span class="glyphicon glyphicon-comment customicon"></span>>
+                
+               </li>
+               <li>
+                   <a routerLink="/messagesender" class="customtext">Message Sender</a> 
+               </li>
+           </ul>
+           
+           
+           
+       </div>
+<div class="row customdiv">
+    <ul >
+        <li routerLink="/comptype"><span class="glyphicon glyphicon-folder-open customicon"></span></li>
+        <li> <a routerLink="/comptype" class="customtext">Component Type</a></li>
+        
+    </ul>
+   
+    
+       </div>
+<div class="row customdiv">
+    <ul>
+        <li routerLink="/createmsgsender" ><span class="glyphicon glyphicon-envelope customicon"></span></li>
+        <li><a routerLink="/createmsgsender" class="customtext">Create Message</a></li>
+        
+    </ul>
+       </div>
+<div class="row customdiv">
+    <ul>
+        <li routerLink="/uploadJar"><span class="glyphicon glyphicon-upload customicon"></span></li>
+        <li><a routerLink="/uploadJar" class="customtext">Upload Jar File</a></li>
+        
+    </ul>
+       </div>
 </div> 
 
 
