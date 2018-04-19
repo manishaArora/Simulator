@@ -297,7 +297,7 @@ html { height: 100%;}
 
 .customtext{
     font-size: 20px;
-    color:white;
+    color:black;
 }
 
 .customicon{
@@ -308,7 +308,7 @@ html { height: 100%;}
 .customsidebar{
     height: 100vh;
     width: 54%;
-    background-color: #292c2f;
+    background-color: #60badd;
     right:43%;
     position: absolute;
         
@@ -316,7 +316,7 @@ html { height: 100%;}
 .customsidebar-on-click{
     height: 100vh;
     width: 54%;
-    background-color: #292c2f;
+    background-color: #60badd;
     right:100%;
     position: absolute;
 }
